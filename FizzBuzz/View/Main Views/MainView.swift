@@ -10,12 +10,12 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            BackgroundText(text: "FizzBuzzView", color: .red)
+            FizzBuzzView()
                 .tabItem {
                     Label( "FizzBuzz", systemImage: "bubbles.and.sparkles")
                 }
             
-            BackgroundText(text: "CodeCreatorView", color: .green)
+            CodeCreatorView()
                 .tabItem {
                     Label( "Code", systemImage: "note.text")
                 }
