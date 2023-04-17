@@ -16,6 +16,9 @@
 		28FA62AB29EDEF3D004ABB67 /* NiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA62AA29EDEF3D004ABB67 /* NiceTextView.swift */; };
 		28FA62AD29EDEF97004ABB67 /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA62AC29EDEF97004ABB67 /* FizzBuzzView.swift */; };
 		28FA62AF29EDF5E1004ABB67 /* CodeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA62AE29EDF5E1004ABB67 /* CodeCreatorView.swift */; };
+		28FA62B129EDF652004ABB67 /* FizzBuzzAlgorithmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA62B029EDF652004ABB67 /* FizzBuzzAlgorithmModel.swift */; };
+		28FA62B329EDFF8C004ABB67 /* FizzBuzzAlgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA62B229EDFF8C004ABB67 /* FizzBuzzAlgViewModel.swift */; };
+		28FA62B629EE0442004ABB67 /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA62B529EE0442004ABB67 /* String Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		28FA62AA29EDEF3D004ABB67 /* NiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceTextView.swift; sourceTree = "<group>"; };
 		28FA62AC29EDEF97004ABB67 /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
 		28FA62AE29EDF5E1004ABB67 /* CodeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCreatorView.swift; sourceTree = "<group>"; };
+		28FA62B029EDF652004ABB67 /* FizzBuzzAlgorithmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgorithmModel.swift; sourceTree = "<group>"; };
+		28FA62B229EDFF8C004ABB67 /* FizzBuzzAlgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgViewModel.swift; sourceTree = "<group>"; };
+		28FA62B529EE0442004ABB67 /* String Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		282406A329E771680005988B /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				28FA62B429EE0427004ABB67 /* Extensions */,
 				28FA62A529EDDA4C004ABB67 /* ViewModel */,
 				28FA62A429EDDA44004ABB67 /* Model */,
 				28FA62A329EDDA3A004ABB67 /* View */,
@@ -91,6 +98,7 @@
 		28FA62A429EDDA44004ABB67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				28FA62B029EDF652004ABB67 /* FizzBuzzAlgorithmModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 		28FA62A529EDDA4C004ABB67 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				28FA62B229EDFF8C004ABB67 /* FizzBuzzAlgViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -120,6 +129,14 @@
 				28FA62AE29EDF5E1004ABB67 /* CodeCreatorView.swift */,
 			);
 			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		28FA62B429EE0427004ABB67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28FA62B529EE0442004ABB67 /* String Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +211,12 @@
 			files = (
 				28FA62AD29EDEF97004ABB67 /* FizzBuzzView.swift in Sources */,
 				28FA62A029EDD6B4004ABB67 /* MainView.swift in Sources */,
+				28FA62B329EDFF8C004ABB67 /* FizzBuzzAlgViewModel.swift in Sources */,
 				28FA62AF29EDF5E1004ABB67 /* CodeCreatorView.swift in Sources */,
 				28FA62A229EDD840004ABB67 /* AboutView.swift in Sources */,
+				28FA62B629EE0442004ABB67 /* String Extensions.swift in Sources */,
 				28FA62A929EDDA94004ABB67 /* BackgroundImageView.swift in Sources */,
+				28FA62B129EDF652004ABB67 /* FizzBuzzAlgorithmModel.swift in Sources */,
 				28FA62AB29EDEF3D004ABB67 /* NiceTextView.swift in Sources */,
 				282406A529E771680005988B /* FizzBuzzApp.swift in Sources */,
 			);
